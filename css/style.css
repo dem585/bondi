@@ -546,6 +546,7 @@ ul{
   background: #fff;
   padding: 30px;
   margin: 0 15px;
+  overflow: hidden;
 }
 
 .block-inf-section-block5{
@@ -663,6 +664,7 @@ ul{
 .block-activ{
   position: fixed;
   display: flex;
+  overflow: hidden;
 }
 
 
