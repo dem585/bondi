@@ -1,439 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bondi</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
+
+	<!-- Шапка сайта  -->
 	<header class="header">
-		<img class="header-img" src="images/Ellipse 22.png">
-		<div class="container">
-			<div class="header__top">
-				<div class="header__top-logo">
-					<a href="#"><img src="images/logo.png">
-						<p>Cтабилизированный мох</p>
-					</a>
-				</div>
-				<div class="header__top-call">
-					<a href="tel:+88002002116" class="header__top-call-text">Бесплатный звонок </a>
-					<a href="tel:+88002002116" class="header__top-call-tel">8 (800) 200-21-16</a>
-				</div>
-				<div class="header__top-language">
-					<div class="header__top-language-btn1">
-						<button  class="header__top-language-btn1-button ">
-						Шрифт
-						</button>
-						<ul class="header__top-language-btn1-button-ul">
-							<li class="header__top-language-btn1-button-24">24px</li>
-							<li class="header__top-language-btn1-button-18">18px</li>
-							<li class="header__top-language-btn1-button-14">14px</li>
-						</ul>
-					</div>
-					
-					<div class="header__top-language-btn2">					
-						<button  class="header__top-language-btn2-button">
-						рус
-						</button>
-						<ul class="header__top-language-btn2-button-ul">
-							<li>укр</li>
-							<li>рус</li>
-						</ul>
-					</div>
-
-				</div>
+		<div class="header__top ">
+			<div class="container header__top-fle">
+			<div class="header__logo">
+				<a class="header__logo-a" href="#">Знаток</a>
 			</div>
-			<div class="header__info">
-				<div class="header__info-text">
-					<h1>Продаем оптом и в розницу стабилизированный мох пласты, ягель и кочки</h1>
-						<p>Мох стабилизируется в России по норвежской технологии. Имеем пожарный сертификат, сертификат соответствия и необходимый пакет документов для экспорта</p>
-						<button class="header__info-text-btn">Забранировать сикдку 15%</button>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__items"><a class="menu__link upen" href="#">Новости</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Видео уроки</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Учетилям</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Ученикам</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Олимпиады</a></li>					
+				</ul>
+				<div class="menu__btn">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
-				<img src="images/img-bg.png" class="header__info-img">
-				<div class="header__info-text-info-form">
-								<div class="header__top">
-				<div class="header__top-logo">
-					<a href="#"><img src="images/logo.png" class="header__info-img2" >
-						<p>Cтабилизированный мох</p>
-					</a>
-				</div>
-				<div class="header__top-call">
-					<a href="tel:+88002002116" class="header__top-call-text">Бесплатный звонок </a>
-					<a href="tel:+88002002116" class="header__top-call-tel">8 (800) 200-21-16</a>
-				</div>
-				<div class="header__top-language">
-					<div class="header__top-language-btn1">
-						<button  class="header__top-language-btn1-button ">
-						Шрифт
-						</button>
-						<ul class="header__top-language-btn1-button-ul">
-							<li class="header__top-language-btn1-button-24">24px</li>
-							<li class="header__top-language-btn1-button-18">18px</li>
-							<li class="header__top-language-btn1-button-14">14px</li>
-						</ul>
-					</div>
-					
-					<div class="header__top-language-btn2">					
-						<button  class="header__top-language-btn2-button">
-						рус
-						</button>
-						<ul class="header__top-language-btn2-button-ul">
-							<li>укр</li>
-							<li>рус</li>
-						</ul>
-					</div>
+			</nav>
 
-				</div>
+			<div class="header__lang">
+				<p class="lang-ru lang">РУ</p>
+				<ul class="lang__list">
+					<li><a href="#" class="lang-uz lang">UZ</a></li>				
+				</ul>
 			</div>
-
-					<p>У нас свое производство и работаем мы по всей России, а значит:</p>
-					<p>Соблюдаем сроки поставкиМох всегда есть в наличииВозможность для вас заработать больше, чем у других на комиссионных</p>
-					<p>Заполните форму ниже и получите прямо сейчас наш каталог для дизайнеров и закрепите комиссию в 15 %.</p>
-					<form class="footer-form-block-form">
-							<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="bondi">
-						<input type="hidden" name="admin_email" value="@gmail.com">
-						<input type="hidden" name="form_subject" value="Block Form">
-							<!-- END Hidden Required Fields -->
-
-					<input class="form-input form-i-header"  type="text" name="Имя:" placeholder="Как вас зовут?" required>
-					
-					<input class="form-input form-i-header" type="text" name="E-mail" placeholder="E-mail" required>
-
-					<input class="form-input form-i-header" type="text" name="Тел:" placeholder="Телефон" required>
-
-					<input class="form-input-submit form-i-header" type="submit" value="Получить скидку" class="input">
-				</form>
-				<button class="form-exit">
-					Назад
-				</button>
-				</div>
-				<img src="images/trav.png" class="img-trav">
+	        <div class="header__btn">
+	        	<a class="header__btn-entrance upen" href="#">Вход</a>
+	        	<a class="header__btn-reg upen" href="#">Регистрация</a>
+	        </div></div>
+		</div>
+		<div class="header__slider"> 
+			
+			<div class="slider">
+				<img class="slider-img" src="images/1.jpg">
+				<img class="slider-img" src="images/4.jpg">
+				<img class="slider-img" src="images/5.jpg">
+				<img class="slider-img" src="images/2.jpg">
+				<img class="slider-img" src="images/3.jpg">
+				<img class="slider-img" src="images/6.jpg">
+			</div>
+		</div>	
+		<div class="menu-mobi">
+			<ul class="menu-mobi__list">
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Новости</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Видео уроки</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Учетилям</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Ученикам</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Олимпиады</a></li>	
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Вход</a></li>
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Регистрация</a></li>				
+			</ul>
+			<div class="menu-close">				
 			</div>
 		</div>
 	</header>
 
-	<section class="section">
-		<div class="container">
-		<h2 class="section__title">Давайте познакомимся!<br>
-		Мы Бонди - компания, которая поможет сделать
-		ваше пространство уютным и красивым.
-		</h2>
-		<div class="section__inner">
-			<img src="images/treug.png" class="img-iner1 img-iner">
-			<img src="images/trav2.png" class="img-iner2 img-iner">
-			<img src="images/Ellipse 23.png" class="img-iner3 img-iner">
-			<div class="section__inner-block">
-				<img src="images/img1.png">
-				<h3>Вы дизайнер?</h3>
-				<p>Закройте вопрос озеленения раз и навсегда, благодаря нашим эксклюзивным условиям</p>
-				<a href="#">Получить каталог и выгоды<br>
-				сотруднечества</a>
-			</div>
-			<div class="section__inner-block">
-				<img src="images/img2.png">
-				<h3>Продаете в розницу?</h3>
-				<p>Забудьте о конкуренции и зарабатывайте с наценкой от 50% благодаря единым условиям</p>
-				<a href="#">Узнать, сколько я могу заработать</a>
-			</div>
-			<div class="section__inner-block">
-				<img src="images/img3.png">
-				<h3>Комплектуете объект?</h3>
-				<p>Гарантировано выполним озеленение за 3 недели</p>
-				<a href="#">Получить дополнительную<br> сикдку</a>
-			</div>
-		</div>
 
-		<h2 class="section__title-info">Почему вы на 100 % можете быть уверены в качестве нашего Мха?</h2>
-		<div class="section__inner-construkt">
-		<img src="images/moh-big.png" class="section__inner-construkt-img">	
-
-			<div class="section__inner-construkt-block-1 section__inner-construkt-block">
-				<img src="images/moh1.png">
-				<p>Индустриальное<br> производство</p>
-			</div>
-
-
-			<div class="section__inner-construkt-block-2 section__inner-construkt-block">
-				<img src="images/moh2.png">
-				<p>Сертифицированный<br> продукт</p>
-			</div>
-			<div class="section__inner-construkt-block-3 section__inner-construkt-block">
-				<img src="images/moh3.png">
-				<p>Без корней</p>
-			</div>
-			<div class="section__inner-construkt-block-4 section__inner-construkt-block">
-				<img src="images/moh4.png">
-				<p>Любая<br> расцветка</p>
-			</div>
-			<div class="section__inner-construkt-block-5 section__inner-construkt-block">
-				<img src="images/moh5.png">
-				<p>Мягкость и пушистость<br> больше 10 лет</p>
-			</div>
-
-		</div>
-
-
-			<div class="section__inner-construkt-block-inf">
-				<div class="block-inf-section">
-					<div class="block-inf-section-title">
-						<h2>Индустриальное производство</h2>
-						<button class="block-inf-section-title-btn">
-
-						</button>
-					</div>					
-					
-					<div class="block-inf-section-block">
-						<img src="images/ind1.png">
-						<div class="block-inf-section-text">
-							<p>Мы - индустриальное производство в отличии от кустарных цехов.
-							</p>
-							<p>Сейчас появилось несколько российских компаний стабилизирующих мох.Однако, этот мох не прошел лабораторных тестов и не проверен временем.</p>
-							<p>Мы 2 года тестировали стабилизированный мох, прежде чем вывести продукт на рынок . У нас свой цех со всем оборудованием, а не замачивание мха в тазиках в квартире.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-				<div class="section__inner-construkt-block-inf-2">
-				<div class="block-inf-section">
-					<div class="block-inf-section-title">
-						<h2>Сертифицированный продукт</h2>
-						<button class="block-inf-section-title-btn">
-
-						</button>
-					</div>					
-					
-					<div class="block-inf-section-block">
-						<img src="images/ind2.png">
-						<div class="block-inf-section-text">
-							<p>Наш мох прошел испытание на воспламеняемость и токсичность по ГОСТУ 30402-96 и получил пожарный сертификат.
-							</p>
-							<p>Наш Стабилизированный Ягель уже неоднократно экспортировался. Что означает его соответствие международным нормам.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-				<div class="section__inner-construkt-block-inf-3">
-				<div class="block-inf-section">
-					<div class="block-inf-section-title">
-						<h2>Без корней</h2>
-						<button class="block-inf-section-title-btn">
-
-						</button>
-					</div>					
-					
-					<div class="block-inf-section-block">
-						<img src="images/ind3.png">
-						<div class="block-inf-section-text">
-							<p>Мы переняли норвежский опыт стабилизации мха, но сбор Ягеля делаем без корней. Это позволяет:
-							</p>
-							<p>1. Сократить Ваше время на изготовление 1 кв м. На мох с корнями уходит 8 часов работы, на мох без корней 3 часа.</p>
-							<p>2. Сократить расход Ягеля. На 1 кв.м. Требуется 4,5 кг ягеля. Таким образом экономятся деньги.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="section__inner-construkt-block-inf-4">
-				<div class="block-inf-section">
-					<div class="block-inf-section-title">
-						<h2>Любая расцветка</h2>
-						<button class="block-inf-section-title-btn">
-
-						</button>
-					</div>					
-					
-					<div class="block-inf-section-block">
-						<img src="images/ind4.png">
-						<div class="block-inf-section-text">
-							<p>В наличии на складе у нас всегда есть 12 расцветок Ягеля.
-							</p>
-							<p>Если вам нужен цвет, которого нет в нашей политре, то наши технологи смогут изготовить его под заказ.</p>
-							<p>Все, что вам нужно назвать номер Panton и подождать 1-2 недели для исполнения всего заказа.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-							<div class="section__inner-construkt-block-inf-5">
-				<div class="block-inf-section">
-					<div class="block-inf-section-title">
-						<h2>Мягкость и пушистость больше 10 лет</h2>
-						<button class="block-inf-section-title-btn">
-
-						</button>
-					</div>					
-					
-					<div class="block-inf-section-block5">
-						<p>Разница и свойства:</p>
-						<h3>ГЛИЦЕРИНОВЫЙ МОХ</h3>
-						<p class="iconk-p">Остается мягким в сухом микроклимате помещения</p>
-						<p class="iconk-p">Про какой-либо уход с ним можно просто забыть</p>
-						<p class="iconk-p">Из-за повышенного содержания глицерина при соприкосновении с огнем является               более воспламеняемым. Но шторы, картины и сертификаты в рамках горят куда быстрее!</p>
-						<h3>СОЛЕВОЙ МОХ</h3>
-						<p class="iconk-p">Может твердеть, если влажность ниже 30%</p>
-						<p class="iconk-p">Следует поставить увлажнитель воздуха, чтобы было хорошо не только мху, но и человеку</p>
-						<p class="iconk-p"> Воспламеняемость отсутствует</p>
-						<img src="images/ind5.png">
-
-					</div>
-				</div>
-			</div>
-
-
-
-
-		<div class="section__inner-construkt-info">
-			<div class="section__inner-construkt-info-block section__inner-construkt-info-block1">
-				<h3>Мох пласты</h3>
-				<img src="images/moh-info1.png">
-				<p>От 3 050 р. до 4 070 р. за кг</p>
-			</div>
-			<div class="section__inner-construkt-info-block section__inner-construkt-info-block2">
-				<h3>Ягель</h3>
-				<img src="images/moh-info2.png">
-				<p>От 1 110 р. до 1 850 р. за кг</p>
-			</div>
-			<div class="section__inner-construkt-info-block section__inner-construkt-info-block3">
-				<h3>Мох кочки</h3>
-				<img src="images/moh-info3.png">
-				<p>От 3 050 р. до 4 070 р. за кг</p>
-			</div>
-		</div>
-
-		<h2 class="section__items-title">Причины почему более 120 человек каждый месяц сотрудничают с нами 
-			и их число постоянно растёт.</h2>	
-			<div class="section__items-info">
-				<img src="images/cust3.png" class="section__items-info-cust">				
-				<div class="section__items-info-block">
-					<img src="images/prem1.svg">
-					<p>Доступная цена</p>
-				</div>
-				<div class="section__items-info-block">
-					<img src="images/prem2.svg">
-					<p>Бесплатная<br>доставка</p>
-				</div>
-				<div class="section__items-info-block">
-					<img src="images/prem3.svg">
-					<p>Гарантия и <br>качество</p>
-				</div>
-				<div class="section__items-info-block">
-					<img src="images/prem4.svg">
-					<p>Без предоплат</p>
-				</div>
-				<div class="section__items-info-block">
-					<img src="images/prem5.svg">
-					<p>Бесплатная<br>консультация</p>
-				</div>
-				<div class="section__items-info-block">
-					<img src="images/prem6.svg">
-					<p>Быстрая<br>работа</p>
-				</div>
-			</div>	
-			<p class="section__items-text">В среднем, 95% тех, кто только начинает работать со мхом, допускает до 10-15 ошибок. Мы хотим, чтобы их вообще не допустили.
-				<img src="images/cust1.png" class="section__items-text-cust1">
-			</p>
-			<h3 class="section__items-title-vid">
-				Что такое стабилизированный мох? 
-			</h3>
-			<div class="section__items-video">		
-			<iframe class= 
-			"ection__items-video-iframe"			
-			 width="800" height="400" src="https://www.youtube.com/embed/e7ExJSIpTeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<h3 class="section__items-title-cliner">
-				Отзывы наших довольных клиентов
-			</h3>
-			<div class="section__items-cliner">
-				<div class="section__items-cliner-block">
-					<img src="images/client1.png">
-					<p>Довольна мхом. Отлично вписался в интеръер дома. Буду обращаться ещё!</p>
-				</div>
-				<div class="section__items-cliner-block">
-					<img src="images/client2.png">
-					<p>Покупал мох для перепродажи. Ни единой партии брака! Рад сотруднечеству!</p>
-				</div>
-				<div class="section__items-cliner-block">
-					<img src="images/client3.png">
-					<p>Покупал мох для перепродажи. Ни единой партии брака! Рад сотруднечеству!</p>
-				</div>
-			</div>
-			<h3 class="section__items-grand-title">
-				Даём гарантии
-			</h3>
-			<div class="section__items-grand">
-				<div class="section__items-grand-block">
-					<img src="images/grand1.svg">
-					<p>Пожизненная гарантия<br> на мох</p>
-				</div>
-				<div class="section__items-grand-block">
-					<img src="images/grand2.svg">
-					<p>Гарантия лучшей цены</p>
-				</div>
-				<div class="section__items-grand-block">
-					<img src="images/grand3.svg">
-					<p>Замена или возврат мха<br> в случае выявления брака</p>
-				</div>
-			</div>
-
-	</div>
-	</section>
-
-	<footer class="footer">
-		<div class="container">
-				<h3 class="footer-form-title" >Скидка 15% для новых клиентов <br> на любой мох </h3>
-			<div class="footer-form">
-				<img src="images/form.jpg">
-				<div class="footer-form-block">
-					<p>Заполните форму <br> и получите скидку 15%</p>
-					<form class="footer-form-block-form">
-							<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="bondi">
-						<input type="hidden" name="admin_email" value="@gmail.com">
-						<input type="hidden" name="form_subject" value="Block Form">
-							<!-- END Hidden Required Fields -->
-
-					<input class="form-input"  type="text" name="Имя:" placeholder="Как вас зовут?" required>
-					
-					<input class="form-input" type="text" name="E-mail" placeholder="E-mail" required>
-
-					<input class="form-input" type="text" name="Тел:" placeholder="Телефон" required>
-
-					<input class="form-input-submit" type="submit" value="Получить скидку" class="input">
-				</form>
-				</div>
-
-			</div>
-		</div>
-
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="footer-bottom-flex">
-					<div class="header__top-logo">
-					<a href="#"><img src="images/logo.png">
-						<p>Cтабилизированный мох</p>
-					</a>
-					</div>
-					<div class="footer-bottom-soc">
-						<a href="#"><img src="images/vk.svg"></a>
-						<a href="#"><img src="images/fb.svg"></a>
-						<a href="#"><img src="images/youtube.svg"></a>
-					</div>
-					<small class="footer-bottom-small"> 8 (800) 200-21-16<br>Бонди<br>
-					2020, Все права защищены</small>
-				</div>	
-			</div>
-		</div>
-	</footer>
-
+	<!-- Секция с информацие -->
+  <section class="section__info">  	
+  	<h2 class="info__title">ЗНАТОК</h2>
+  	<div class="container">
+  	<div class="info__block">
+  		<div class="info__box"></div>
+  	</div>
+  	</div>
+  </section>
+	<!--  
+ 		<section class="section__video">
+  			<h3 class="video__title">О олимпиаде</h3>
+  		</section>-->
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
+
